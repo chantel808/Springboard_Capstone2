@@ -3,6 +3,12 @@
 ## What Makes a Valuable or Fake Customer Review?
 *Currently a work-in-progress*
 
+Important files to view:
+<li> <a href='https://github.com/chantel808/Springboard_Capstone2/blob/master/Capstone%202%20Milestone%20Report%202%20-%20CClark.pdf'> Milestone Report 2 </a></li>
+<li> <a href='https://github.com/chantel808/Springboard_Capstone2/blob/master/Amazon_reviews_NLP_CClark-Copy3.ipynb'> NLP Python notebook </a> </li>
+<li> <a href='https://github.com/chantel808/Springboard_Capstone2/blob/master/Amazon_reviews_EDA_CClark.ipynb'> Exploratory Data Analysis Python notebook </a> </li>
+<li> <a href='https://github.com/chantel808/Springboard_Capstone2/blob/master/Amazon_reviews_stats_CClark.ipynb'> Statistical Analysis </a> </li>
+
 ### The Problem
 The online reputation of businesses is extremely important these days in gaining the trust of customers. One way that people determine whether or not to buy a product or service is through reading customer reviews. However, it can be difficult to know which reviews are authentic because of the presence of ‘fake’ reviews. Products on Amazon with a 5-star review may not actually have a true 5-star rating because of a flood of incentivized or paid reviews. The inflation of reviews makes it very difficult for the average or ethical company to have their products show up in user searches when another product has over a thousand fake, glowing reviews. Since 2015, Amazon has been working to crack down on the users who write paid reviews, and companies that solicit them (<a href='https://www.washingtonpost.com/business/economy/how-merchants-secretly-use-facebook-to-flood-amazon-with-fake-reviews/2018/04/23/5dad1e30-4392-11e8-8569-26fda6b404c7_story.html'> Dwoskin and Timberg, 2018 </a>). However, in 2019 <a href='https://reviewmeta.com/'> ReviewMeta </a> found that even products which receive Amazon choice badges contain many suspicious reviews.  Fake reviews pose a problem for both businesses and potential customers. How can companies compete with those that use paid reviews, and how can customers get a true estimate of the quality of product or service?
 
