@@ -38,4 +38,4 @@ Data was obtained from an open Amazon dataset with over 130 million customer rev
   
 ### Feature transformation
 
-![Feature pipeline](https://github.com/chantel808/Springboard_Capstone2/blob/master/feature_pipeline.png)
+![Feature pipeline](https://github.com/chantel808/Springboard_Capstone2/blob/master/feature_pipeline_rs.png)
