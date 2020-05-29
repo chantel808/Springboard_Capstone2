@@ -42,7 +42,7 @@ Vine vs. 'suspicious' total reviews per customer:
 
 <img src="https://github.com/chantel808/Springboard_Capstone2/blob/master/vine_total_revs.png" width="400">
 
-Features included the review body, star rating, number of helpful votes, vine, verified purchase, and cosine similary for each customer with two or more reviews.
+Features included the review body, star rating, number of helpful votes, vine, verified purchase, and cosine similary for each customer with two or more reviews. A FeatureUnion pipeline was used to transform and combine the different types of features.
 
 ![Feature pipeline](https://github.com/chantel808/Springboard_Capstone2/blob/master/feature_pipeline_rs.png)
 
