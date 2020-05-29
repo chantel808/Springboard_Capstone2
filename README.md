@@ -27,15 +27,25 @@ Data was obtained from an open Amazon dataset with over 130 million customer rev
 <li>review body - text of the review </li>
 <li>review date - date review written </li>
 
-### Exploratory data analysis answers the following questions:
+### Summary
+Target labels were created based off of the maximum number of reviews written within a day. If a customer wrote 30 or more reviews within a day, all reviews written by the customer were given a target label value of 1 under a 'suspect' column. 
 
-<ol>
-  <li> What is the mean and median number of reviews per customer? </li>
-<li> What do the reviews of a highly active (>500 reviews) reviewer look like? </li>
-<li> What do the reviews that a one review customer look like? </li>
-<li> Do customers who write different amounts of reviews give the same distribution of star ratings? </li>
-  </ol>
-  
-### Feature transformation
+Cosine similarity of reviews from a 'suspicious' customer:
+
+<img src="https://github.com/chantel808/Springboard_Capstone2/blob/master/cosine_similarity.png" width="500" height="500">
+
+Frequency of posts from a highly 'suspicious' customer:
+
+<img src="https://github.com/chantel808/Springboard_Capstone2/blob/master/suspect_revs_per_day.png" width="400" height="250">
+
+Vine vs. 'suspicious' total reviews per customer:
+
+<img src="https://github.com/chantel808/Springboard_Capstone2/blob/master/vine_total_revs.png" width="400">
+
+Features included the review body, star rating, number of helpful votes, vine, verified purchase, and cosine similary for each customer with two or more reviews.
 
 ![Feature pipeline](https://github.com/chantel808/Springboard_Capstone2/blob/master/feature_pipeline_rs.png)
+
+The machine learning algorithms tested included Multinomial Naive Bayes, Random Forests, and Linear SVC.
+
+<!-- <img src="" width="400" height="400"> -->
