@@ -5,7 +5,7 @@
 
 Important files to view:
 <li> <a href='https://github.com/chantel808/Springboard_Capstone2/blob/master/Capstone%202%20Milestone%20Report%202%20-%20CClark.pdf'> Milestone Report 2 </a></li>
-<li> <a href='https://github.com/chantel808/Springboard_Capstone2/blob/master/Amazon_reviews_NLP_CClark-Copy3.ipynb'> NLP Python notebook </a> </li>
+<li> <a href='https://github.com/chantel808/Springboard_Capstone2/blob/master/Amazon_reviews_NLP_CClark.ipynb'> NLP Python notebook </a> </li>
 <li> <a href='https://github.com/chantel808/Springboard_Capstone2/blob/master/Amazon_reviews_EDA_CClark.ipynb'> Exploratory Data Analysis Python notebook </a> </li>
 <li> <a href='https://github.com/chantel808/Springboard_Capstone2/blob/master/Amazon_reviews_stats_CClark.ipynb'> Statistical Analysis </a> </li>
 
