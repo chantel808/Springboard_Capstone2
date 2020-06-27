@@ -28,15 +28,15 @@ Data was obtained from an open Amazon dataset with over 130 million customer rev
 <li>review date - date review written </li>
 
 ### Summary
-Target labels were created based off of the maximum number of reviews written within a day. If a customer wrote 30 or more reviews within a day, all reviews written by the customer were given a target label value of 1 under a 'suspect' column. The image below is a TSNE (t-distributed stochastic neighbor embedding) projection of the TF-IDF vectors from non-suspicious (blue, label ‘0’) and suspicious (green, label ‘1’) reviews in the training set.
+Target labels were created based off of the maximum number of reviews written within a day. If a customer wrote 30 or more reviews within a day, all reviews written by the customer were given a target label value of 1 under a 'suspect' column. The image below is a TSNE (t-distributed stochastic neighbor embedding) projection of the TF-IDF vectors from non-suspicious (blue, label ‘0’) and suspicious (green, label ‘1’) reviews in the training set. It shows that the labeling is effective for discerning between suspicious and non-suspicious reviews.
 
 <img src="https://github.com/chantel808/Springboard_Capstone2/blob/master/tsne.png">
 
-Cosine similarity of reviews from a 'suspicious' customer:
+Cosine similarity of reviews from a 'suspicious' customer - here we can see the similarity between each pair of reviews. Identical reviews are shown in red:
 
 <img src="https://github.com/chantel808/Springboard_Capstone2/blob/master/cosine_similarity.png" width="500" height="500">
 
-Frequency of posts from a highly 'suspicious' customer:
+Frequency of posts from a highly 'suspicious' customer - this suspicious reviewer had over 140 reviews posted within a day:
 
 <img src="https://github.com/chantel808/Springboard_Capstone2/blob/master/suspect_revs_per_day.png" width="400" height="250">
 
@@ -48,6 +48,8 @@ Features included the review body, star rating, number of helpful votes, vine, v
 
 ![Feature pipeline](https://github.com/chantel808/Springboard_Capstone2/blob/master/feature_pipeline_rs.png)
 
-The machine learning algorithms tested included Multinomial Naive Bayes, Random Forests, and Linear SVC.
+Machine learning algorithms tested included Multinomial Naive Bayes, Random Forests, and Linear SVC. The best results were achieved when using all features (review text and reviewer behavior) in a Random Forest model. It was able to identify 65.8% of all reviews that were labelled as 'fake', and a ROC AUC score of 97.4% on data that the model had never seen.
+
+Finding fake reviews is akin to finding a needle in a haystack due to the large volume of reviews, and relatively small number of fake reviews. However, machine learning makes it possible to filter and detect patterns of fraudulent reviews so that firms will be able to maintain a high quality platform that customers and businesses can trust. 
 
 <!-- <img src="" width="400" height="400"> -->
