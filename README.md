@@ -28,7 +28,7 @@ Data was obtained from an open Amazon dataset with over 130 million customer rev
 <li>review date - date review written </li>
 
 ### Summary
-Target labels were created based off of the maximum number of reviews written within a day. If a customer wrote 30 or more reviews within a day, all reviews written by the customer were given a target label value of 1 under a 'suspect' column. The image below is a TSNE (t-distributed stochastic neighbor embedding) projection of the TF-IDF vectors from non-suspicious (blue, label ‘0’) and suspicious (green, label ‘1’) reviews in the training set. It shows that the labeling is effective for discerning between suspicious and non-suspicious reviews.
+Target labels were created based off of the maximum number of reviews written within a day. If a customer wrote 30 or more reviews within a day, all reviews written by the customer were given a target label value of 1 under a 'suspect' column. The image below is a TSNE (t-distributed stochastic neighbor embedding) projection of the TF-IDF vectors from non-suspicious (blue, label ‘0’) and suspicious (green, label ‘1’) reviews in the training set. It shows that the labeling is effective for discerning between some suspicious and non-suspicious reviews.
 
 <img src="https://github.com/chantel808/Springboard_Capstone2/blob/master/tsne.png">
 
